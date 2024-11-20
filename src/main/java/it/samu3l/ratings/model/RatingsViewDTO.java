@@ -1,32 +1,32 @@
 package it.samu3l.ratings.model;
 
 public class RatingsViewDTO {
-    private int potive;
+    private int positive;
     private int negative;
     private int neutral;
 
     public RatingsViewDTO() {
-        this.potive = 0;
+        this.positive = 0;
         this.negative = 0;
         this.neutral = 0;
     }
 
-    public RatingsViewDTO(int potive, int negative, int neutral) {
-        this.potive = potive;
+    public RatingsViewDTO(int positive, int negative, int neutral) {
+        this.positive = positive;
         this.negative = negative;
         this.neutral = neutral;
     }
 
-    public int getPotive() {
-        return potive;
+    public int getPositive() {
+        return positive;
     }
 
-    public void addPotive() {
-        this.potive++;
+    public void addPositive() {
+        this.positive++;
     }
 
-    public void setPotive(int potive) {
-        this.potive = potive;
+    public void setPositive(int potive) {
+        this.positive = potive;
     }
 
     public int getNegative() {

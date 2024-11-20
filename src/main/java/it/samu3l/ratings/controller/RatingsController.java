@@ -34,7 +34,7 @@ public class RatingsController {
         for (Ratings rating : ratings) {
             switch (rating.getRating()) {
                 case 3:
-                    ratingsViewDTO.addPotive();
+                    ratingsViewDTO.addPositive();
                     break;
                 case 2:
                     ratingsViewDTO.addNeutral();
@@ -78,7 +78,7 @@ public class RatingsController {
         for (Ratings rating : ratings) {
             switch (rating.getRating()) {
                 case 3:
-                    ratingsViewDTO.addPotive();
+                    ratingsViewDTO.addPositive();
                     break;
                 case 2:
                     ratingsViewDTO.addNeutral();
